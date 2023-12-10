@@ -12,7 +12,7 @@
 	<artifactId>Horoscope-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Horoscope-App</name>
-	<description>application to get horoscope from external data source(api)</description>
+	<description>This project is consuming and external API of horoscope from Rapid Api.</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -28,6 +28,14 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+		
+<!-- https://mvnrepository.com/artifact/com.mashape.unirest/unirest-java -->
+       <dependency>
+            <groupId>com.mashape.unirest</groupId>
+            <artifactId>unirest-java</artifactId>
+            <version>1.4.4</version>
+       </dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>

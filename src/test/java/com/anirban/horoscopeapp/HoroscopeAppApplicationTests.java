@@ -1,4 +1,4 @@
-package com.anirban.horoscopeapp;
+package com.anirban.HoroscopeApp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

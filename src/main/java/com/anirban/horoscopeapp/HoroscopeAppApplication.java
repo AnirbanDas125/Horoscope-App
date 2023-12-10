@@ -1,4 +1,4 @@
-package com.anirban.horoscopeapp;
+package com.anirban.HoroscopeApp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
